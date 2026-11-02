@@ -104,7 +104,7 @@ footer a{color:var(--ink)}
 .cert .issuer{color:#9FAED4;font-size:.95rem}
 .go{display:inline-block;margin-top:.5rem;font-weight:500;border-bottom:1px solid rgba(255,255,255,.4);transition:border-color .15s}
 .card:hover .go{border-color:#fff}
-.resume-card{display:flex;justify-content:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap;text-decoration:none}
+.resume-card{display:flex;justify-between:space-between;align-items:center;gap:1.5rem;flex-wrap:wrap;text-decoration:none}
 .resume-card h3{margin:0 0 .25rem}
 .resume-card p{margin:0}
 .resume-card .go{margin:0}
@@ -131,19 +131,19 @@ footer a{color:var(--ink)}
           <h3><button class="head" aria-expanded="true" aria-controls="p1"><span class="tags"><span class="tag">RAG</span><span class="tag wip">Work in progress</span></span><span class="name">FinOpera - Due Diligence Platform</span><span class="stack">RAG, Gemini 3.5 Flash Lite, Python</span><span class="plus" aria-hidden="true"></span></button></h3>
           <div class="more" id="p1"><div><p>A RAG-based due diligence platform for company financials. Upload financial PDFs and it calculates debt, assets, and liquidity for the company.</p><p>An Ask AI feature, powered by Gemini 3.5 Flash Lite, lets you ask questions about the financials and get answers based on the uploaded documents.</p><p><a href="https://github.com/kriskundu06/finopera" target="_blank" rel="noopener">Source on GitHub</a></p></div></div>
         </article>
-<article class="card">
+        <article class="card">
           <h3><button class="head" aria-expanded="false" aria-controls="p2"><span class="tags"><span class="tag">Reinforcement learning</span><span class="tag wip">Work in progress</span></span><span class="name">Investfolio - Smart Portfolio Manager</span><span class="stack">PPO, Gymnasium, FastAPI, React, TypeScript</span><span class="plus" aria-hidden="true"></span></button></h3>
           <div class="more" id="p2"><div><p>A PPO-based portfolio manager with a custom Gymnasium environment that shifts allocation across the S&amp;P 500, NASDAQ, Gold, Oil, and NIFTY 50. It uses monthly return, volatility, Sharpe, Sortino, drawdown, and correlation features.</p><p>On 2023–2025 backtesting it returned 66.4% in total, 19.9% CAGR, and a 1.87 Sharpe ratio. I also ran FinBERT sentiment experiments and built FastAPI endpoints behind a React and TypeScript dashboard, deployed on Render and Vercel. I’m still adding more features.</p><p><a href="https://github.com/kriskundu06/investfolio" target="_blank" rel="noopener">Source on GitHub</a></p></div></div>
         </article>
-<article class="card">
-          <h3><button class="head" aria-expanded="false" aria-controls="p5"><span class="tags"><span class="tag">Machine learning</span><span class="tag wip">Work in progress</span></span><span class="name">TrakCyclon - Cyclone Path Predictor</span><span class="stack">Random Forest, XGBoost, FastAPI, OpenStreetMap</span><span class="plus" aria-hidden="true"></span></button></h3>
-          <div class="more" id="p5"><div><p>A machine learning system that predicts cyclone trajectories over the North Indian Ocean, covering the Bay of Bengal and the Arabian Sea.</p><p>It learns from historical cyclone data to forecast future storm positions using Random Forest and XGBoost models. An OpenStreetMap view shows the predicted paths, and a FastAPI backend serves the forecasts.</p><p><a href="https://github.com/kriskundu06/" target="_blank" rel="noopener">Source on GitHub</a></p></div></div>
+        <article class="card">
+          <h3><button class="head" aria-expanded="false" aria-controls="p5"><span class="tags"><span class="tag">Machine learning</span></span><span class="name">TrakCyclon - Cyclone Path Predictor</span><span class="stack">Random Forest, XGBoost, FastAPI, OpenStreetMap</span><span class="plus" aria-hidden="true"></span></button></h3>
+          <div class="more" id="p5"><div><p>A machine learning system that predicts cyclone trajectories over the North Indian Ocean, covering the Bay of Bengal and the Arabian Sea.</p><p>It learns from historical cyclone data to forecast future storm positions using Random Forest and XGBoost models. An OpenStreetMap view shows the predicted paths, and a FastAPI backend serves the forecasts.</p><p><a href="https://github.com/kriskundu06/trakcyclon" target="_blank" rel="noopener">Source on GitHub</a></p></div></div>
         </article>
         <article class="card">
           <h3><button class="head" aria-expanded="false" aria-controls="p3"><span class="tag">NLP</span><span class="name">SentimentScan</span><span class="stack">DistilBERT, Hugging Face, Streamlit, Plotly</span><span class="plus" aria-hidden="true"></span></button></h3>
           <div class="more" id="p3"><div><p>A customer sentiment platform for text and CSV reviews. It runs a Transformer model over the reviews and shows the results in interactive charts so you can explore what customers are saying.</p><p><a href="https://github.com/kriskundu06/SentimentScan" target="_blank" rel="noopener">Source on GitHub</a></p></div></div>
         </article>
-<article class="card">
+        <article class="card">
           <h3><button class="head" aria-expanded="false" aria-controls="p4"><span class="tag">Recommender</span><span class="name">CinemaWatch</span><span class="stack">Python, Pandas, Scikit-learn, Streamlit</span><span class="plus" aria-hidden="true"></span></button></h3>
           <div class="more" id="p4"><div><p>A movie recommendation system built on the Kaggle TMDB 5000 dataset. Pick a movie and the app suggests similar ones, using a Streamlit interface over a Scikit-learn model.</p><p><a href="https://github.com/kriskundu06/cinema-watch" target="_blank" rel="noopener">Source on GitHub</a></p></div></div>
         </article>
@@ -188,7 +188,7 @@ footer a{color:var(--ink)}
 
     <section id="resume">
       <h2>Resume</h2>
-      <div class="stage"><a class="card resume-card" id="resume-link" href="#"><div><h3>View my resume</h3><p>Education, projects, skills, and certifications on one page.</p></div><span class="go">Open resume</span></a></div>
+      <div class="stage"><a class="card resume-card" id="resume-link" href="https://drive.google.com/file/d/1lj_NytyUj10PT3Ltpoko8wooRUVnwDqq/view?usp=sharing" target="_blank" rel="noopener"><div><h3>View my resume</h3><p>Education, projects, skills, and certifications on one page.</p></div><span class="go">Open resume</span></a></div>
     </section>
 
     <section id="about">
